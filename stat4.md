@@ -54,3 +54,7 @@
   + Bal felső - Összeveti a modell értékeit a maradékokkal 
   + Bal középső - normális elolszlás vizsgálata 
   + Bal alsó - hisztogram normális eloszlás-e 
++ Levene homogenitás vizsgálat 
+    + A p > 0,05 akkor elfogadjuk 
+
+  
