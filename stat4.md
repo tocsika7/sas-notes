@@ -37,16 +37,20 @@
 + SSM = SUM(Yi - Y)^2 
 + SSE = SUM(SUM(Yij - Yi))^2
 
-## Determinációs együttható 
+## Lineáris modell 
 + ANOVA - Linear Models
 + Model - Main 
-+ Mode Options - Type1, Show Parameters
++ Mode Options - Type3, Show Parameters
 + Post Hoc Tests - Least Squares - Add 
   + Comparrisson Show p-values All pairwise differences
-  + Adjustment method Turkey 
+  + Adjustment method Tukey 
 + Arithmetics 
   + Class effect use true 
   + Homogenity Levene (square residual)
 + Futás után 
   + F hez tartozó p érték ha nagyobb mint 0,05 elfogadjuk 
   + R-négyzet a modellben a változékonyságot magyarázza, ha közelebb áll a nullához kevésbé magyarázza 
++ Ábrák eljárás feltételének teljesülése 
+  + Bal felső - Összeveti a modell értékeit a maradékokkal 
+  + Bal középső - normális elolszlás vizsgálata 
+  + Bal alsó - hisztogram normális eloszlás-e 
